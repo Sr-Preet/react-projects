@@ -1,0 +1,81 @@
+body {
+  background-color: #f28ab2;
+  height: 800px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  margin-top: 8%;
+}
+
+.main > div {
+  border-radius: 5px;
+  border: 10px;
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.reminders {
+  /* height: 650px; */
+  width: 30%;
+  background-color: #fff;
+  padding: 0px 20px;
+}
+
+.heading {
+  text-align: start;
+  font-weight: 400;
+  color: #102a4e;
+  letter-spacing: 4px;
+  font-size: 25px;
+}
+
+.single {
+  margin-left: 5%;
+}
+
+img {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 25%;
+}
+
+.person_data {
+  display: inline-block;
+  margin-left: 5%;
+  text-align: center;
+  align-items: baseline;
+}
+
+.person_data > p:first-child {
+  display: block;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #102a42;
+}
+.person_data > p:nth-child(2) {
+  display: block;
+  color: #617d98;
+}
+
+.btn {
+  background-color: #f28ab2;
+  color: #fff;
+  display: block;
+  width: 100%;
+  border-color: transparent;
+  background: #f28ab2;
+  margin: 2rem auto 0;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+  letter-spacing: 0.1rem;
+  letter-spacing: var(--spacing);
+  border-radius: 0.25rem;
+  border-radius: var(--radius);
+  outline: 1px solid rgba(242, 138, 178, 0.8);
+  cursor: pointer;
+  margin-bottom: 5%;
+}
